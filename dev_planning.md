@@ -48,6 +48,7 @@
 * Single Page App
 * No login
 * Style Vianai
+* Going to have to use redux so I'm going to have to use thunk
 
 ## Tools
 * ColorPick Eyedropper chrome extension
