@@ -1,8 +1,50 @@
-.form {
+/* .form {
     font-family: 'Open Sans', sans-serif;
     position: fixed;
     bottom: 680px;
     right: 870px;
+} */
+
+.start-label {
+    font-family: 'Open Sans', sans-serif;
+    position: fixed;
+    bottom: 680px;
+    right: 1570px;
+}
+
+.start {
+    font-family: 'Open Sans', sans-serif;
+    position: fixed;
+    bottom: 670px;
+    right: 1350px;
+}
+
+.end-label {
+    font-family: 'Open Sans', sans-serif;
+    position: fixed;
+    bottom: 680px;
+    right: 1190px;
+}
+
+.end {
+    font-family: 'Open Sans', sans-serif;
+    position: fixed;
+    bottom: 670px;
+    right: 970px;
+}
+
+.currency-label {
+    font-family: 'Open Sans', sans-serif;
+    position: fixed;
+    bottom: 680px;
+    right: 830px;
+}
+
+.currency {
+    font-family: 'Open Sans', sans-serif;
+    position: fixed;
+    bottom: 680px;
+    right: 510px;
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator {
@@ -26,10 +68,13 @@ input[type="date"] {
 	color: #2D2D2D !important;
 	text-transform: uppercase;
 	padding: 10px;
-	border: 1px solid #2D2D2D !important;
-	border-radius: 2px;
 	display: inline-block;
 	transition: all 0.3s ease 0s;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 600px;
+    right: 560px;
+    width: 50%;
 }
 
 .inputbutton:hover {
@@ -37,4 +82,5 @@ input[type="date"] {
 	border-radius: 50px;
 	border-color: #463463 !important;
 	transition: all 0.3s ease 0s;
+    background: #dbdbdb;
 }

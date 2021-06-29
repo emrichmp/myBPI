@@ -13,11 +13,11 @@ class Inputs extends React.Component {
         return(
             <div>
                 <form className="form" onSubmit={this.submitHandler}>
-                    <label className="start">Start Date: </label>
+                    <label className="start-label">Start Date: </label>
                     <input className="start" type="date"></input>
-                    <label className="end" >End Date: </label>
+                    <label className="end-label" >End Date: </label>
                     <input className="end" type="date"></input>
-                    <label className="currency" >Currency: </label>
+                    <label className="currency-label" >Currency: </label>
                     <select className="currency" name="currency">
                         {Currencies.map((item, index) => {
                             return(
