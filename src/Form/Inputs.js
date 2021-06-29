@@ -12,9 +12,9 @@ class Inputs extends React.Component {
         return(
             <div>
                 <form className="form" onSubmit={this.submitHandler}>
-                    <label>Start Date:</label>
+                    <label>Start Date: </label>
                     <input type="date"></input>
-                    <label>End Date:</label>
+                    <label>End Date: </label>
                     <input type="date"></input>
                     <label>Currency</label>
                     <select name="currency">
