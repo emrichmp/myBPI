@@ -43,8 +43,15 @@
 .currency {
     font-family: 'Open Sans', sans-serif;
     position: fixed;
-    bottom: 680px;
-    right: 510px;
+    bottom: 675px;
+    right: 460px;
+    color: #2D2D2D !important;
+	text-transform: uppercase;
+	padding: 5px;
+	display: inline-block;
+	transition: all 0.3s ease 0s;
+    border:1px solid #ecf0f1;
+    background:#ecf0f1;
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator {
@@ -71,6 +78,7 @@ input[type="date"] {
 	display: inline-block;
 	transition: all 0.3s ease 0s;
     border-radius: 5px;
+    border:1px solid #ecf0f1;
     position: fixed;
     bottom: 600px;
     right: 560px;
