@@ -22,7 +22,7 @@ class Inputs extends React.Component {
                     <select className="currency" name="currency">
                         {Currencies.map((item, index) => {
                             return(
-                                <option key={index} value={item.currency}>{item.currency}</option>
+                                <option key={index} value={item.currency}>{item.currency} - {item.country}</option>
                             )
                         })}
                     </select>
