@@ -7,7 +7,6 @@ class Inputs extends React.Component {
     submitHandler(e){
         e.preventDefault()
         console.log("hi")
-        console.log(Currencies)
     }
 
     render(){
