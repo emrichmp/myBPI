@@ -14,6 +14,10 @@
 
 ## Project Broken Down
 
+### Header
+[] - Vianai Logo on top left
+[] - Contact Us logo on top right - https://www.vian.ai/contact-us/
+
 ### Form
 [] - Inputs
     [] - profile info?
