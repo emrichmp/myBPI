@@ -7,6 +7,10 @@
 * Organize in re-usable components
 
 ## To-Do
+[] - Figure out what the "profile info" is going to be
+[] - grab Vianai logo and add to public folder
+[] - Figure out specific Vianai Colors
+
 
 ## Project Broken Down
 
