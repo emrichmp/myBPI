@@ -24,12 +24,12 @@
 
     Charts
         * line graph to show history of data
-        * anothert graph for another thing lol
+        * another graph for another thing lol
 
 ### Component Breakdown
 * reusable function component for the rows in the table - takes in props
 * container componenet that holds the table
-
+* form class component that has inputs and handles fetches - might be able to refactor this into 2 comps
 
 ### Styling - https://www.vian.ai/ (website)
 [] - grab Vianai Logo and add it into app
