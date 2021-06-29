@@ -66,3 +66,4 @@
 * React
 * Redux
 * CSS
+* pulled supported currencies from - https://api.coindesk.com/v1/bpi/supported-currencies.json
