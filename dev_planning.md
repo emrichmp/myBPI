@@ -7,14 +7,18 @@
 * Organize in re-usable components
 
 ## To-Do
-[] - Figure out what the "profile info" is going to be
 [X] - grab Vianai logo and add to public folder
 [X] - Figure out specific Vianai Colors
 [X] - Do header
-[] - Figure out how to wire frame redux and thunk
 [X] - build currencies object in currencies.js
+[] - Figure out what the "profile info" is going to be
 [] - Style inputs and space them
 [] - handle fetch request
+[] - Setup table to show json response
+[] - figure how to handle bad req
+[] - css style table
+[] - figure out how to display data in a graph
+[] - Figure out how to wire frame redux and thunk
 
 
 ## Project Broken Down
