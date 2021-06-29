@@ -38,6 +38,10 @@
 ### Styling - https://www.vian.ai/ (website)
 [] - grab Vianai Logo and add it into app
 [] - Use dark purple, grey black and white for color scheme
+    * purple - #463463 - rgb(70,52,99)
+    * dark purple - #463463 - rgb(36,26,48)
+    * grey - #2D2D2D - rgb(45,45,45)
+    * white - #F9F5FF - rgb(249,245,255)
 [] - add "Powered by CoinDesk" and link to price page - "https://www.coindesk.com/price/bitcoin"
 
 ## Notes
