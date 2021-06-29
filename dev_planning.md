@@ -52,7 +52,7 @@
     * dark purple - #463463 - rgb(36,26,48)
     * grey - #2D2D2D - rgb(45,45,45)
     * white - #F9F5FF - rgb(249,245,255)
-[] - add "Powered by CoinDesk" and link to price page - "https://www.coindesk.com/price/bitcoin"
+[X] - add "Powered by CoinDesk" and link to price page - "https://www.coindesk.com/price/bitcoin"
 
 ## Notes
 * Single Page App
