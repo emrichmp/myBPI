@@ -4,3 +4,20 @@
     bottom: 680px;
     right: 870px;
 }
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: #2D2D2D;
+}
+
+input[type="date"] {
+    appearance: none;
+    -webkit-appearance: none;
+    color: #5f6161;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    border:1px solid #ecf0f1;
+    background:#ecf0f1;
+    padding:5px;
+    display: inline-block !important;
+    visibility: visible !important;
+}
