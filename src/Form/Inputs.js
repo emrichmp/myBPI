@@ -2,10 +2,16 @@ import React from 'react';
 import './Inputs.css';
 
 class Inputs extends React.Component {
+
+    submitHandler(e){
+        e.preventDefault()
+        console.log("hi")
+    }
+
     render(){
         return(
             <div>
-                <form className="form">
+                <form className="form" onSubmit={this.submitHandler}>
                     <label>Start Date:</label>
                     <input type="date"></input>
                     <label>End Date:</label>
