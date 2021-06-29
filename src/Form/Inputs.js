@@ -1,11 +1,13 @@
 import React from 'react';
 import './Inputs.css';
+import { Currencies } from './Currencies'
 
 class Inputs extends React.Component {
 
     submitHandler(e){
         e.preventDefault()
         console.log("hi")
+        console.log(Currencies)
     }
 
     render(){
@@ -18,10 +20,11 @@ class Inputs extends React.Component {
                     <input className="end" type="date"></input>
                     <label className="currency" >Currency</label>
                     <select className="currency" name="currency">
-                        <option value="volvo">Volvo</option>
-                        <option value="saab">Saab</option>
-                        <option value="opel">Opel</option>
-                        <option value="audi">Audi</option>
+                        {Currencies.map((item, index) => {
+                            return(
+                                <option key={index} value={item.currency}>{item.currency}</option>
+                            )
+                        })}
                     </select>
                     <button className="inputbutton">Pull Data</button>
                 </form>
