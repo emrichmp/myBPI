@@ -19,6 +19,7 @@
 ### Header
 [] - Vianai Logo on top left
 [] - Contact Us logo on top right - https://www.vian.ai/contact-us/
+[] - css styling for link and hover
 
 ### Form
 [] - Inputs

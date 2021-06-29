@@ -3,7 +3,9 @@ import React from 'react';
 class Header extends React.Component {
     render(){
         return(
-            <div>header</div>
+            <div>
+                <a href="https://www.vian.ai/contact-us/">Contact Us</a>
+            </div>
         )
     }
 }
