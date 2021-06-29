@@ -1,10 +1,11 @@
 import React from 'react';
+import './Inputs.css';
 
 class Inputs extends React.Component {
     render(){
         return(
             <div>
-                <form>
+                <form className="form">
                     <label>Start Date:</label>
                     <input type="date"></input>
                     <label>End Date:</label>
