@@ -5,3 +5,7 @@
 * Be creative in presentation
 * Use Redux
 * Organize in re-usable components
+
+## To-Do
+
+## Project Broken Down
