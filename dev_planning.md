@@ -17,9 +17,10 @@
 ## Project Broken Down
 
 ### Header
-[] - Vianai Logo on top left
-[] - Contact Us logo on top right - https://www.vian.ai/contact-us/
+[X] - Vianai Logo on top left
+[X] - Contact Us logo on top right - https://www.vian.ai/contact-us/
 [] - css styling for link and hover
+[] - css styling to have logo in the right spot
 
 ### Form
 [] - Inputs
