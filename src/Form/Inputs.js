@@ -17,7 +17,7 @@ class Inputs extends React.Component {
                     <input className="start" type="date"></input>
                     <label className="end" >End Date: </label>
                     <input className="end" type="date"></input>
-                    <label className="currency" >Currency</label>
+                    <label className="currency" >Currency: </label>
                     <select className="currency" name="currency">
                         {Currencies.map((item, index) => {
                             return(
