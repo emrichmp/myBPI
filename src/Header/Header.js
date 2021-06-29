@@ -5,8 +5,8 @@ class Header extends React.Component {
     render(){
         return(
             <div>
-                <img src={logo} alt="" />
-                <a href="https://www.vian.ai/contact-us/">Contact Us</a>
+                <img className="logo" src={logo} alt="" />
+                <a  className="contact" href="https://www.vian.ai/contact-us/">Contact Us</a>
             </div>
         )
     }
