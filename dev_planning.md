@@ -1,4 +1,4 @@
-Requirements:
+# Requirements:
 * Use https://www.coindesk.com/coindesk-api to
 * Display data in both tabular and charts
 * Allow user to input profile info, start / end dates and currencies
