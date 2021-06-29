@@ -10,8 +10,9 @@
 [] - Figure out what the "profile info" is going to be
 [X] - grab Vianai logo and add to public folder
 [X] - Figure out specific Vianai Colors
-[] - Do header
+[X] - Do header
 [] - Figure out how to wire frame redux and thunk
+[] - build currencies object in currencies.js
 
 
 ## Project Broken Down
