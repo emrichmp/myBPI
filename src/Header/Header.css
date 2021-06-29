@@ -1,0 +1,7 @@
+.contact {
+    color: black;
+}
+
+.contact:hover {
+    text-decoration: none;
+}
