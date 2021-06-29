@@ -12,7 +12,7 @@
 [X] - Do header
 [X] - build currencies object in currencies.js
 [] - Figure out what the "profile info" is going to be
-[] - Style inputs and space them
+[X] - Style inputs and space them
 [] - handle fetch request
 [] - Setup table to show json response
 [] - figure how to handle bad req
