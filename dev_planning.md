@@ -17,6 +17,13 @@
     [] - start date
     [] - end date
     [] - currencies
+### Data Display
+    Tables
+        * columns:
+
+    Charts
+        * line graph to show history of data
+        * anothert graph for another thing lol
 
 ### Styling - https://www.vian.ai/ (website)
 [] - grab Vianai Logo and add it into app
