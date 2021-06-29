@@ -63,3 +63,6 @@
 ## Tools
 * ColorPick Eyedropper chrome extension
 * Vianai's website and chrome developer tools to grab Vianai Logo
+* React
+* Redux
+* CSS
