@@ -17,6 +17,7 @@
     [] - start date
     [] - end date
     [] - currencies
+
 ### Data Display
     Tables
         * columns:
@@ -24,6 +25,11 @@
     Charts
         * line graph to show history of data
         * anothert graph for another thing lol
+
+### Component Breakdown
+* reusable function component for the rows in the table - takes in props
+* container componenet that holds the table
+
 
 ### Styling - https://www.vian.ai/ (website)
 [] - grab Vianai Logo and add it into app
