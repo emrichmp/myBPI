@@ -23,7 +23,7 @@ class Inputs extends React.Component {
                         <option value="opel">Opel</option>
                         <option value="audi">Audi</option>
                     </select>
-                    <button>Pull Data</button>
+                    <button className="inputbutton">Pull Data</button>
                 </form>
             </div>
         )

@@ -21,3 +21,20 @@ input[type="date"] {
     display: inline-block !important;
     visibility: visible !important;
 }
+
+.inputbutton {
+	color: #2D2D2D !important;
+	text-transform: uppercase;
+	padding: 10px;
+	border: 1px solid #2D2D2D !important;
+	border-radius: 2px;
+	display: inline-block;
+	transition: all 0.3s ease 0s;
+}
+
+.inputbutton:hover {
+	color: #463463 !important;
+	border-radius: 50px;
+	border-color: #463463 !important;
+	transition: all 0.3s ease 0s;
+}
