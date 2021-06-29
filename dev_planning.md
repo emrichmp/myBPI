@@ -17,3 +17,8 @@
     [] - start date
     [] - end date
     [] - currencies
+
+### Styling - https://www.vian.ai/ (website)
+[] - grab Vianai Logo and add it into app
+[] - Use dark purple, grey black and white for color scheme
+[] - add "Powered by CoinDesk" and link to price page - "https://www.coindesk.com/price/bitcoin"
