@@ -14,3 +14,9 @@
 .contact:hover {
     text-decoration: none;
 }
+
+.logo {
+    position: fixed;
+    bottom: 792px;
+    right: 1425px;
+}
