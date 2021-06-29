@@ -8,8 +8,10 @@
 
 ## To-Do
 [] - Figure out what the "profile info" is going to be
-[] - grab Vianai logo and add to public folder
-[] - Figure out specific Vianai Colors
+[X] - grab Vianai logo and add to public folder
+[X] - Figure out specific Vianai Colors
+[] - Do header
+[] - Figure out how to wire frame redux and thunk
 
 
 ## Project Broken Down
