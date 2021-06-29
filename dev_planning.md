@@ -44,8 +44,8 @@
 * form class component that has inputs and handles fetches - might be able to refactor this into 2 comps
 
 ### Styling - https://www.vian.ai/ (website)
-[] - grab Vianai Logo and add it into app
-[] - Use dark purple, grey black and white for color scheme
+[X] - grab Vianai Logo and add it into app
+[X] - Use dark purple, grey black and white for color scheme
     * purple - #463463 - rgb(70,52,99)
     * dark purple - #463463 - rgb(36,26,48)
     * grey - #2D2D2D - rgb(45,45,45)
