@@ -1,3 +1,6 @@
 .form {
     font-family: 'Open Sans', sans-serif;
+    position: fixed;
+    bottom: 680px;
+    right: 870px;
 }
