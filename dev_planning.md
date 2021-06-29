@@ -48,3 +48,7 @@
 * Single Page App
 * No login
 * Style Vianai
+
+## Tools
+* ColorPick Eyedropper chrome extension
+* Vianai's website and chrome developer tools to grab Vianai Logo
