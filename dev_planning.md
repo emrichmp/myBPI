@@ -35,3 +35,8 @@
 [] - grab Vianai Logo and add it into app
 [] - Use dark purple, grey black and white for color scheme
 [] - add "Powered by CoinDesk" and link to price page - "https://www.coindesk.com/price/bitcoin"
+
+## Notes
+* Single Page App
+* No login
+* Style Vianai
