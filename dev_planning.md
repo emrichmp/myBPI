@@ -12,8 +12,9 @@
 [X] - Figure out specific Vianai Colors
 [X] - Do header
 [] - Figure out how to wire frame redux and thunk
-[] - build currencies object in currencies.js
-[] - style form
+[X] - build currencies object in currencies.js
+[] - Style inputs and space them
+[] - handle fetch request
 
 
 ## Project Broken Down
