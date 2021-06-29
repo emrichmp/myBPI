@@ -9,3 +9,11 @@
 ## To-Do
 
 ## Project Broken Down
+
+### Form
+[] - Inputs
+    [] - profile info?
+        [] - 
+    [] - start date
+    [] - end date
+    [] - currencies
