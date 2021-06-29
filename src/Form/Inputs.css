@@ -78,7 +78,7 @@ input[type="date"] {
 	display: inline-block;
 	transition: all 0.3s ease 0s;
     border-radius: 5px;
-    border:1px solid #ecf0f1;
+    border:1px solid #c5c8c9;
     position: fixed;
     bottom: 600px;
     right: 560px;
