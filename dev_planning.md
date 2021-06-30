@@ -14,7 +14,7 @@
 [X] - Figure out what the "profile info" is going to be
 [X] - Style inputs and space them
 [X] - RESTRUCTURE STYLING
-[] - Solve bug of calendar collision not working
+[X] - Solve bug of calendar collision not working
 [] - handle fetch request
 [] - Setup table to show json response
 [] - figure how to handle bad req
