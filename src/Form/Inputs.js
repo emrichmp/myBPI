@@ -54,7 +54,7 @@ class Inputs extends React.Component {
                     </select>
                     <button className="inputbutton">Pull History</button>
                 </form>
-                <Table data={this.state.data}/>
+                <Table start={this.state.start} end={this.state.end} data={this.state.data}/>
             </div>
         )
     }
