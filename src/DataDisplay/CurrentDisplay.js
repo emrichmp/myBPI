@@ -1,4 +1,6 @@
 function CurrentDisplay(props){
+    //presentation component that takes in prop data from Current.js and displays it on page
+    //utilized function component because state is not required
     console.log(props.data.bpi)
     return <div className="current-display">
                 <h1>Current BPI Data:</h1>
