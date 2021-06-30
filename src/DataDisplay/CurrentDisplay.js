@@ -1,3 +1,5 @@
+import he from 'he';
+
 function CurrentDisplay(props){
     //presentation component that takes in prop data from Current.js and displays it on page
     //utilized function component because state is not required
@@ -9,7 +11,7 @@ function CurrentDisplay(props){
                     {Object.entries(props.data.bpi).map(([key, value]) => {
                         // Pretty straightforward - use key for the key and value for the value.
                         // Just to clarify: unlike object destructuring, the parameter names don't matter here.
-                        return <h3 key={key}> {value.code} {value.symbol} {value.rate} </h3>
+                        return <h3 key={key}> {value.code} {he.decode(value.symbol)} {value.rate} </h3>
                     })}
              </div>
     } else {
