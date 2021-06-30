@@ -3,6 +3,8 @@ import logo from './logo-flower.png'
 import './Header.css';
 
 class Header extends React.Component {
+    //Created header to look very similar to Vianai website, contact link leads to Vianai, disclaimer is required for utilization of coindesk
+    //Vianai Logo was pulled from website
     render(){
         return(
             <div>
