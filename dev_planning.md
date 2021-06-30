@@ -19,6 +19,7 @@
 [] - css style table
 [] - figure out how to display data in a graph
 [] - Figure out how to wire frame redux and thunk
+[] - RESTRUCTURE STYLING
 
 
 ## Project Broken Down
