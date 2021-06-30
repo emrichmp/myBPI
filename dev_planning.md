@@ -15,7 +15,8 @@
 [X] - Style inputs and space them
 [X] - RESTRUCTURE STYLING
 [X] - Solve bug of calendar collision not working
-[] - button for pulling current data
+[X] - button for pulling current data
+[] - pull current data when component mounts and then display it
 [] - handle fetch request
 [] - Setup table to show json response
 [] - figure how to handle bad req
