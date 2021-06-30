@@ -7,6 +7,13 @@ function Table(props){
     console.log(props.end)
     return <div>
                 <h2 className="table-header" > Showing data from {props.start} to {props.end} </h2>
+                <table className="datable">
+                    <tr>
+                        <th>Date</th>
+                        <th>Value</th>
+                        <th>Updated</th>
+                    </tr>
+                </table>
             </div>
 }
 
