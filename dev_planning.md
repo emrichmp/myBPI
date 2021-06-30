@@ -13,7 +13,7 @@
 [X] - build currencies object in currencies.js
 [X] - Figure out what the "profile info" is going to be
 [X] - Style inputs and space them
-[] - RESTRUCTURE STYLING
+[X] - RESTRUCTURE STYLING
 [] - handle fetch request
 [] - Setup table to show json response
 [] - figure how to handle bad req
