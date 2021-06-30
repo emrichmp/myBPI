@@ -1,13 +1,15 @@
 import React from 'react';
 import './Inputs.css';
 import { Currencies } from './Currencies'
+import Table from '../DataDisplay/Table';
 
 class Inputs extends React.Component {
 
     state = {
         start: "2021-06-29",
         end: new Date().toISOString().slice(0, 10),
-        currency: "AED"
+        currency: "AED",
+        data: {}
     }
 
     submitHandler = (e) => {
@@ -26,7 +28,7 @@ class Inputs extends React.Component {
         console.log(start, end, currency)
         fetch(`https://api.coindesk.com/v1/bpi/historical/close.json?start=${start}&end=${end}`)
             .then(response => response.json())
-            .then(json => console.log(json))
+            .then(json => this.setState({ data:json }))
     }
 
     render(){
@@ -47,6 +49,7 @@ class Inputs extends React.Component {
                     </select>
                     <button className="inputbutton">Pull History</button>
                 </form>
+                <Table data={this.state.data}/>
             </div>
         )
     }
