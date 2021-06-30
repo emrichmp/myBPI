@@ -46,6 +46,9 @@
         * line graph to show history of data
         * another graph for another thing lol
 
+### Profile Component
+    
+
 ### Component Breakdown
 * reusable function component for the rows in the table - takes in props
 * container componenet that holds the table
