@@ -13,13 +13,13 @@
 [X] - build currencies object in currencies.js
 [X] - Figure out what the "profile info" is going to be
 [X] - Style inputs and space them
+[] - RESTRUCTURE STYLING
 [] - handle fetch request
 [] - Setup table to show json response
 [] - figure how to handle bad req
 [] - css style table
 [] - figure out how to display data in a graph
 [] - Figure out how to wire frame redux and thunk
-[] - RESTRUCTURE STYLING
 [] - start profile component
 
 
