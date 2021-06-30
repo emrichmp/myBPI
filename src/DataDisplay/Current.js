@@ -1,14 +1,23 @@
-import { useEffect } from 'react';
-//import CurrentDisplay from './CurrentDisplay';
+import React from 'react';
+import CurrentDisplay from './CurrentDisplay';
 
-function Current() {
-    useEffect( () => {
-            fetch('https://api.coindesk.com/v1/bpi/currentprice.json')
+class Current extends React.Component{
+
+    state = {
+        data: {}
+    }
+
+    componentDidMount(){
+        fetch('https://api.coindesk.com/v1/bpi/currentprice.json')
             .then(response => response.json())
-            .then(json => console.log(json))
-    })
-    // return <CurrentDisplay data={json} />
-    return null
+            .then(json => this.setState({ data: json }))
+    }
+
+    render(){
+        return(
+            <CurrentDisplay data={this.state.data}/>
+        )
+    }
 }
 
 export default Current;

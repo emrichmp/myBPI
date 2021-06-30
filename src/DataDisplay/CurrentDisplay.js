@@ -1,5 +1,6 @@
 function CurrentDisplay(props){
-    console.log("hi!")
+    console.log(props.data)
+    return null
 }
 
 export default CurrentDisplay;
