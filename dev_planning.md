@@ -20,7 +20,8 @@
 [X] - handle fetch request for current
 [] - finish CurrentDisplay component
 [X] - handle fetch req for history
-[] - Setup table to show json response
+[X] - Setup table to show json response
+[] - Create table to show data
 [] - figure how to handle bad req
 [] - css style table
 [] - figure out how to display data in a graph
