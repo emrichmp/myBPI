@@ -4,6 +4,10 @@ import { Currencies } from './Currencies'
 
 class Inputs extends React.Component {
 
+    state = {
+        current: []
+    }
+
     submitHandler(e){
         e.preventDefault()
         console.log("hi")
@@ -14,14 +18,6 @@ class Inputs extends React.Component {
         let val = event.target.value;
         this.setState({[nam]: val});
         console.log(nam, val)
-    }
-
-    currentData(e){
-        e.preventDefault()
-        console.log("currentdata")
-        fetch('https://api.coindesk.com/v1/bpi/currentprice.json')
-        .then(response => response.json())
-        .then(json => console.log(json))
     }
 
     render(){
@@ -41,11 +37,12 @@ class Inputs extends React.Component {
                         })}
                     </select>
                     <button className="inputbutton">Pull History</button>
-                    <button className="currentdata" onClick={this.currentData}>Current Data</button>
                 </form>
             </div>
         )
     }
 }
+
+/* <button className="currentdata" onClick={this.currentData}>Current Data</button> */
 
 export default Inputs;
