@@ -20,9 +20,12 @@
 [X] - handle fetch request for current
 [X] - handle fetch req for history
 [X] - Setup table to show json response
+[X] - finish CurrentDisplay component
+[X] - Blurb comp
+[X] - style blurb
 [] - Create table to show data
 [] - css style table
-[] - finish CurrentDisplay component
+[] - fix showing data portion
 [] - figure out how to display data in a graph
 [] - Figure out how to use redux
 [] - start profile component
