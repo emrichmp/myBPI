@@ -18,7 +18,7 @@
 [X] - button for pulling current data
 [X] - pull current data when component mounts and then display it -> used function component for this
 [X] - handle fetch request for current
-[] - Display current data
+[] - finish CurrentDisplay component
 [] - handle fetch req for history
 [] - Setup table to show json response
 [] - figure how to handle bad req
