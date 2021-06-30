@@ -7,6 +7,8 @@ class Current extends React.Component{
         data: {}
     }
 
+    //When component mounts, Current.js fetches to coindesk to get current BitCoin prices, sets json response to data state
+    //data is then passed into Current Display as prop
     componentDidMount(){
         fetch('https://api.coindesk.com/v1/bpi/currentprice.json')
             .then(response => response.json())
