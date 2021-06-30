@@ -3,7 +3,9 @@ function Table(props){
     console.log(props.data)
     console.log(props.start)
     console.log(props.end)
-    return <h1> Showing data from {props.start} to {props.end} </h1>
+    return <div>
+                <h1> Showing data from {props.start} to {props.end} </h1>
+            </div>
 }
 
 export default Table;
