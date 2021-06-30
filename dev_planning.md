@@ -15,6 +15,7 @@
 [X] - Style inputs and space them
 [X] - RESTRUCTURE STYLING
 [X] - Solve bug of calendar collision not working
+[] - button for pulling current data
 [] - handle fetch request
 [] - Setup table to show json response
 [] - figure how to handle bad req
