@@ -4,9 +4,15 @@ import { Currencies } from './Currencies'
 
 class Inputs extends React.Component {
 
-    submitHandler(e){
+    state = {
+        start: "2021-06-29",
+        end: new Date().toISOString().slice(0, 10),
+        currency: "AED"
+    }
+
+    submitHandler = (e) => {
         e.preventDefault()
-        console.log("hi")
+        this.fetchHandler(this.state.start, this.state.end, this.state.currency)
     }
 
     changeHandler = (event) => {
@@ -14,6 +20,13 @@ class Inputs extends React.Component {
         let val = event.target.value;
         this.setState({[nam]: val});
         console.log(nam, val)
+    }
+
+    fetchHandler(start, end, currency) {
+        console.log(start, end, currency)
+        fetch(`https://api.coindesk.com/v1/bpi/historical/close.json?start=${start}&end=${end}`)
+            .then(response => response.json())
+            .then(json => console.log(json))
     }
 
     render(){
