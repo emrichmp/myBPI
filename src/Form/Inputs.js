@@ -43,6 +43,4 @@ class Inputs extends React.Component {
     }
 }
 
-/* <button className="currentdata" onClick={this.currentData}>Current Data</button> */
-
 export default Inputs;
