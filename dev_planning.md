@@ -24,7 +24,7 @@
 [] - css style table
 [] - finish CurrentDisplay component
 [] - figure out how to display data in a graph
-[] - Figure out how to wire frame redux
+[] - Figure out how to use redux
 [] - start profile component
 
 ## Reach Goals
