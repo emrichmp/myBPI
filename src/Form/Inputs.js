@@ -19,6 +19,9 @@ class Inputs extends React.Component {
     currentData(e){
         e.preventDefault()
         console.log("currentdata")
+        fetch('https://api.coindesk.com/v1/bpi/currentprice.json')
+        .then(response => response.json())
+        .then(json => console.log(json))
     }
 
     render(){
