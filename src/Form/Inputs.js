@@ -4,10 +4,6 @@ import { Currencies } from './Currencies'
 
 class Inputs extends React.Component {
 
-    state = {
-        current: []
-    }
-
     submitHandler(e){
         e.preventDefault()
         console.log("hi")
