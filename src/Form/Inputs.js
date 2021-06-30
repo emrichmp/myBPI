@@ -4,7 +4,7 @@ import { Currencies } from './Currencies'
 import Table from '../DataDisplay/Table';
 
 class Inputs extends React.Component {
-
+    //initialization of state, set default values to handle instance of user clicking the button without changing inputs
     state = {
         start: "2021-06-29",
         end: new Date().toISOString().slice(0, 10),
@@ -12,11 +12,13 @@ class Inputs extends React.Component {
         data: {}
     }
 
+    //when button is clicked, submit handler prevent page reload and passes the states as args to the fetchHandler
     submitHandler = (e) => {
         e.preventDefault()
         this.fetchHandler(this.state.start, this.state.end, this.state.currency)
     }
 
+    //While inputs change changeHandler is setting state
     changeHandler = (event) => {
         let nam = event.target.name;
         let val = event.target.value;
@@ -24,6 +26,8 @@ class Inputs extends React.Component {
         console.log(nam, val)
     }
 
+    //takes in the state, end and currency to make a fetch the to coindesk to pull specific history data, then sets the response to the data state
+    //this data is then passed into the table component as props
     fetchHandler(start, end, currency) {
         console.log(start, end, currency)
         fetch(`https://api.coindesk.com/v1/bpi/historical/close.json?start=${start}&end=${end}`)
@@ -31,6 +35,7 @@ class Inputs extends React.Component {
             .then(json => this.setState({ data:json }))
     }
 
+    //displays form, takes in currencies object to show the options for select, also mounts table component
     render(){
         return(
             <div>
