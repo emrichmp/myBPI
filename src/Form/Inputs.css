@@ -1,49 +1,49 @@
 .start-label {
     font-family: 'Open Sans', sans-serif;
-    position: fixed;
-    bottom: 680px;
-    right: 1570px;
+    display: flex;
+    margin-left: 250px;
+    margin-top: 130px;
 }
-
-/* margin-left: 250px; */
 
 .start {
     font-family: 'Open Sans', sans-serif;
-    position: fixed;
-    bottom: 670px;
-    right: 1350px;
+    display: inline;
+    margin-left: 250px;
+    margin-top: 10px;
 }
 
 .end-label {
     font-family: 'Open Sans', sans-serif;
-    position: fixed;
-    bottom: 680px;
-    right: 1190px;
+    display: flex;
+    margin-left: 550px;
+    margin-top: -70px;
 }
 
 .end {
     font-family: 'Open Sans', sans-serif;
-    position: fixed;
+    /* position: fixed;
     bottom: 670px;
-    right: 970px;
+    right: 970px; */
+    display: flex;
+    margin-left: 550px;
+    margin-top: 10px;
 }
 
 .currency-label {
     font-family: 'Open Sans', sans-serif;
-    position: fixed;
-    bottom: 680px;
-    right: 830px;
+    display: flex;
+    margin-left: 850px;
+    margin-top: -70px;
 }
 
 .currency {
     font-family: 'Open Sans', sans-serif;
-    position: fixed;
-    bottom: 675px;
-    right: 460px;
+    display: flex;
+    margin-left: 850px;
+    margin-top: 10px;
     color: #2D2D2D !important;
 	text-transform: uppercase;
 	padding: 5px;
-	display: inline-block;
 	transition: all 0.3s ease 0s;
     border:1px solid #ecf0f1;
     background:#ecf0f1;
@@ -74,10 +74,10 @@ input[type="date"] {
 	transition: all 0.3s ease 0s;
     border-radius: 5px;
     border:1px solid #c5c8c9;
-    position: fixed;
-    bottom: 600px;
-    right: 560px;
-    width: 50%;
+    display: flex;
+    margin-left: 1250px;
+    margin-top: -35px;
+    width: 7%;
 }
 
 .inputbutton:hover {
