@@ -7,7 +7,7 @@ class Header extends React.Component {
         return(
             <div>
                 <img className="logo" src={logo} alt="" />
-                <a className="contact" href="https://www.vian.ai/contact-us/">Contact Us</a>
+                <a className="contact" href="https://www.vian.ai/contact-us/" target="_blank" rel="noopener noreferrer">Contact Us</a>
                 <small className="coindesk">Powered by <a href="https://www.coindesk.com/price/bitcoin" target="_blank" rel="noopener noreferrer" >CoinDesk</a></small>
             </div>
         )
