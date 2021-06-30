@@ -7,9 +7,9 @@
 
 .start {
     font-family: 'Open Sans', sans-serif;
-    display: inline;
+    display: flex;
     margin-left: 250px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .end-label {
@@ -21,9 +21,6 @@
 
 .end {
     font-family: 'Open Sans', sans-serif;
-    /* position: fixed;
-    bottom: 670px;
-    right: 970px; */
     display: flex;
     margin-left: 550px;
     margin-top: 10px;
@@ -62,8 +59,6 @@ input[type="date"] {
     border:1px solid #ecf0f1;
     background:#ecf0f1;
     padding:5px;
-    display: inline-block !important;
-    visibility: visible !important;
 }
 
 .inputbutton {
