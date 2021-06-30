@@ -11,7 +11,7 @@
 [X] - Figure out specific Vianai Colors
 [X] - Do header
 [X] - build currencies object in currencies.js
-[] - Figure out what the "profile info" is going to be
+[X] - Figure out what the "profile info" is going to be
 [X] - Style inputs and space them
 [] - handle fetch request
 [] - Setup table to show json response
@@ -20,6 +20,7 @@
 [] - figure out how to display data in a graph
 [] - Figure out how to wire frame redux and thunk
 [] - RESTRUCTURE STYLING
+[] - start profile component
 
 
 ## Project Broken Down
@@ -47,7 +48,9 @@
         * another graph for another thing lol
 
 ### Profile Component
-    
+[] - Show name, email, phone number
+[] - Allow User to edit name, email phone number
+[] - display name on main page
 
 ### Component Breakdown
 * reusable function component for the rows in the table - takes in props
