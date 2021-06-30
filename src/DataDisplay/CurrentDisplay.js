@@ -8,7 +8,7 @@ function CurrentDisplay(props){
     if (props.data.bpi !== undefined){
         console.log("yeet")
         return <div>
-                <h1 className="current-display" >Current BitCoin Values</h1>
+                <h3 className="current-display" >Current BitCoin Values</h3>
                     {Object.entries(props.data.bpi).map(([key, value]) => {
                         // Pretty straightforward - use key for the key and value for the value.
                         // Just to clarify: unlike object destructuring, the parameter names don't matter here.
