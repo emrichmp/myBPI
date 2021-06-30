@@ -82,3 +82,25 @@ input[type="date"] {
 	transition: all 0.3s ease 0s;
     background: #dbdbdb;
 }
+
+.currentdata {
+    color: #2D2D2D !important;
+	text-transform: uppercase;
+	padding: 10px;
+	display: inline-block;
+	transition: all 0.3s ease 0s;
+    border-radius: 5px;
+    border:1px solid #c5c8c9;
+    display: flex;
+    margin-left: 1260px;
+    margin-top: -51px;
+    width: 7%;
+}
+
+.currentdata:hover {
+	color: #463463 !important;
+	border-radius: 50px;
+	border-color: #463463 !important;
+	transition: all 0.3s ease 0s;
+    background: #dbdbdb;
+}

@@ -16,6 +16,11 @@ class Inputs extends React.Component {
         console.log(nam, val)
     }
 
+    currentData(e){
+        e.preventDefault()
+        console.log("currentdata")
+    }
+
     render(){
         return(
             <div>
@@ -32,7 +37,8 @@ class Inputs extends React.Component {
                             )
                         })}
                     </select>
-                    <button className="inputbutton">Pull Data</button>
+                    <button className="inputbutton">Pull History</button>
+                    <button className="currentdata" onClick={this.currentData}>Current Data</button>
                 </form>
             </div>
         )
