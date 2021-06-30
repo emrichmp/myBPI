@@ -21,12 +21,14 @@
 [X] - handle fetch req for history
 [X] - Setup table to show json response
 [] - Create table to show data
-[] - figure how to handle bad req
 [] - css style table
 [] - finish CurrentDisplay component
 [] - figure out how to display data in a graph
-[] - Figure out how to wire frame redux and thunk
+[] - Figure out how to wire frame redux
 [] - start profile component
+
+## Reach Goals
+[] - figure how to handle bad req
 
 
 ## Project Broken Down
