@@ -11,7 +11,6 @@ function Table(props){
                     <tr>
                         <th>Date</th>
                         <th>Value</th>
-                        <th>Updated</th>
                     </tr>
                 </table>
             </div>
