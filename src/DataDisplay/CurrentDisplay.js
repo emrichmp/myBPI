@@ -2,14 +2,20 @@ function CurrentDisplay(props){
     //presentation component that takes in prop data from Current.js and displays it on page
     //utilized function component because state is not required
     console.log(props.data.bpi)
-    return <div className="current-display">
+    if (props.data.bpi !== undefined){
+        console.log("yeet")
+        return <div className="current-display">
                 <h1>Current BPI Data:</h1>
-                {/* {props.data.bpi.map((item, index) => {
-                    return(
-                    <h3 key={index}>{item.code}: {item.symbol} {item.rate}</h3>
-                    )
-                })} */}
-        </div>
+                    {Object.entries(props.data.bpi).map(([key, value]) => {
+                        // Pretty straightforward - use key for the key and value for the value.
+                        // Just to clarify: unlike object destructuring, the parameter names don't matter here.
+                        return <h3 key={key}> {value.code} {value.symbol} {value.rate} </h3>
+                    })}
+             </div>
+    } else {
+        console.log(":(")
+        return <div>fook</div>
+    }
 }
 
 export default CurrentDisplay;
