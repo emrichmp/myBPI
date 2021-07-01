@@ -18,10 +18,10 @@ function LineGraphData(props){
         hover: true,
         gridX: true,
         gridY: true,
-        width: '40%',
-        height: '80%'
+        // width: '40%',
+        // height: '80%'
         };
-        return <LineGraph className="Graph" {...specs}/>
+        return <div className="Graph" ><LineGraph {...specs}/></div>
     } else {
         return null
     }
