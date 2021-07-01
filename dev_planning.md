@@ -36,8 +36,8 @@
 [X] - figure out profile component issue
 [X] - setup redux
 [X] - set default values of name, email, pn
-[] - edit form for profile
-[] - do profile component and use redux to update the states
+[X] - edit form for profile
+[X] - do profile component and use redux to update the states
 [] - Do README
 [] - Create Demo
 
