@@ -3,7 +3,7 @@ import LineGraph from 'react-line-graph';
 //Recieves data as props from Input.js
 //Displays BPI data in date & value
 function LineGraphData(){
-    const data = [10,0,-2.5,540];
+    const data = [340,10,-2.5,540];
     const props = {
     data,
     smoothing: 0.3,
