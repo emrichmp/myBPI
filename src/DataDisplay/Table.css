@@ -8,8 +8,24 @@
     text-underline-offset: 20%;
 }
 
-td, th {
-    border: 1px solid #dddddd;
+table {
+    border: 1px solid #999797;
+    background: rgb(255, 255, 255);
+    display: flex;
+    margin-left: 160px;
+    margin-top: 30px;
+    width: 205px;
+}
+
+th{
+    background: rgb(168, 116, 226);
+}
+
+td {
     text-align: left;
     padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
   }
