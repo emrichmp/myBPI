@@ -30,8 +30,10 @@
 [X] - start profile component
 [] - figure out profile component issue
 [] - do profile component and use redux to update the states
-[] - figure out how to display data in a graph
+[X] - figure out how to display data in a graph
 [] - style and place graph correctly
+[] - Write in axis
+[] - get onHover to work
 [] - Do README
 [] - Create Demo
 
