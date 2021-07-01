@@ -1,10 +1,12 @@
 import LineGraph from 'react-line-graph';
+import './Graph.css';
 
 //Recieves data as props from Input.js
 //Displays BPI data in date & value
-function LineGraphData(){
+function LineGraphData(props){
+    console.log(props.data)
     const data = [340,10,-2.5,540];
-    const props = {
+    const specs = {
     data,
     smoothing: 0.3,
     accent: 'palevioletred',
@@ -16,7 +18,7 @@ function LineGraphData(){
     height: '80%'
     };
  
-    return <LineGraph {...props}/>
+    return <LineGraph className="Graph" {...specs}/>
 }
 
 export default LineGraphData;
