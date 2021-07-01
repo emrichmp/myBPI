@@ -27,9 +27,12 @@
 [X] - css style table
 [X] - fix showing data portion
 [X] - add white space at the bottom of the page to make it look nice
+[X] - start profile component
+[] - figure out profile component issue
+[] - do profile component and use redux to update the states
 [] - figure out how to display data in a graph
-[] - Figure out how to use redux
-[] - start profile component
+[] - Do README
+[] - Create Demo
 
 ## Reach Goals
 [] - figure how to handle bad req
