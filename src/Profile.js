@@ -7,7 +7,7 @@ import React from 'react';
 class Profile extends React.Component{
     render(){
         return(
-            <div>profile</div>
+            <div className="profile-comp"><h1>PROFILE</h1></div>
         )
     }
 }
