@@ -28,13 +28,13 @@
 [X] - fix showing data portion
 [X] - add white space at the bottom of the page to make it look nice
 [X] - start profile component
-[] - figure out profile component issue
-[] - do profile component and use redux to update the states
 [X] - figure out how to display data in a graph
 [X] - style and place graph correctly
 [] - Write in axis
 [] - get onHover to work
 [] - Do README
+[] - figure out profile component issue
+[] - do profile component and use redux to update the states
 [] - Create Demo
 
 ## Reach Goals
