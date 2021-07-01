@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css'
 import { connect } from 'react-redux';
+import EditForm from './EditForm';
 
 //Component allows user to update profile data
 //This page would theoretically pull from a backend that handles login
@@ -14,6 +15,7 @@ class Profile extends React.Component{
                 <h3>Name: {this.props.name}</h3>
                 <h3>Email: {this.props.email}</h3>
                 <h3>Phone Number: {this.props.pn}</h3>
+                <EditForm/>
             </div>
         )
     }
