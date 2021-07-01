@@ -32,7 +32,7 @@
 [X] - style and place graph correctly
 [X] - Write in axis
 [X] - get onHover to work
-[] - style hover val
+[X] - style hover val
 [] - Do README
 [] - figure out profile component issue
 [] - do profile component and use redux to update the states
