@@ -21,7 +21,10 @@ function LineGraphData(props){
         // width: '40%',
         // height: '80%'
         };
-        return <div className="Graph" ><LineGraph {...specs}/></div>
+        return <div className="Graph" >
+                <h4>BPI History Graph</h4>
+                <LineGraph {...specs}/>
+            </div>
     } else {
         return null
     }
