@@ -14,8 +14,8 @@ function Table(props){
                             {Object.entries(props.data.bpi).map(([key, value]) => {
                                 return(
                                 <tr>
-                                <td>{key}</td>
-                                <td>{value}</td>
+                                    <td>{key}</td>
+                                    <td>{value}</td>
                                 </tr>
                                 )
                             })}
