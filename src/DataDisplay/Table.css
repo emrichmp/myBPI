@@ -1,5 +1,11 @@
 .table-header {
     font-family: 'Open Sans', sans-serif;
+    display: flex;
+    margin-left: 150px;
+    margin-top: 30px;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 20%;
 }
 
 td, th {
