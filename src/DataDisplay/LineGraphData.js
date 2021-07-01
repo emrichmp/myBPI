@@ -28,7 +28,6 @@ function LineGraphData(props){
         return <div className="Graph" >
                 <h4>BPI History Graph</h4>
                 <GraphLabel />
-                {console.log(specs.hover.value)}
                 <LineGraph {...specs}/>
             </div>
     } else {
