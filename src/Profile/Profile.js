@@ -7,13 +7,6 @@ import { connect } from 'react-redux';
 //User can update name, birthday, email and phone number that associated with a theoretical account
 //Uses redux to handle state of profile information
 class Profile extends React.Component{
-
-    // state = {
-    //     name: "User",
-    //     email: "email@vian.ai",
-    //     pn: "917-123-4567"
-    // }
-
     render(){
         return(
             <div className="profile-comp">
