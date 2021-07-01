@@ -21,6 +21,9 @@ function Table(props){
                             })}
                         </tbody>
                     </table>
+                    <br></br>
+                    <br></br>
+                    <br></br>
                 </div>
     } else {
         return null
