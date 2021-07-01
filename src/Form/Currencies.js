@@ -1,3 +1,6 @@
+//Currencies.js exports an array object of all the currencies supported by CoinDesk.
+//This array is then used in Input.js for the selection of Currency
+
 export const Currencies = [
     {
     currency: "AED",
