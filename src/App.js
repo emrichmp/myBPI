@@ -7,7 +7,7 @@ import {
   Route,
   HashRouter
 } from "react-router-dom";
-import Profile from './Profile'
+import Profile from './Profile/Profile'
 
 function App() {
   return (
