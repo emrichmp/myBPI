@@ -24,7 +24,7 @@
 [X] - Blurb comp
 [X] - style blurb
 [X] - Create table to show data
-[] - css style table
+[X] - css style table
 [] - fix showing data portion
 [] - figure out how to display data in a graph
 [] - Figure out how to use redux
