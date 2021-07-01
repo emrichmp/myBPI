@@ -33,9 +33,10 @@
 [X] - Write in axis
 [X] - get onHover to work
 [X] - style hover val
-[] - Do README
-[] - figure out profile component issue
+[X] - figure out profile component issue
+[] - edit form for profile
 [] - do profile component and use redux to update the states
+[] - Do README
 [] - Create Demo
 
 ## Reach Goals
