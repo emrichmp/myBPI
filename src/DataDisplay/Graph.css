@@ -4,17 +4,15 @@
     display: flex;
     width: 50%;
     padding-bottom: 100px;
-    padding-right: 100px;
+    padding-right: 230px;
     margin-top: 150px;
 }
 
-/* .X-axis {
-    margin-top: 160px;
-    padding-left: -20px;
+.x-axis {
+    display: flex;
+    margin-top: 75px;
 }
 
-.Y-axis {
-    display: flex;
-    margin-top: 70px;
-    padding-right: 40px;
-} */
+.y-axis {
+    margin-top: 60px;
+}

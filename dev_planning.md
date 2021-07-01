@@ -30,7 +30,7 @@
 [X] - start profile component
 [X] - figure out how to display data in a graph
 [X] - style and place graph correctly
-[] - Write in axis
+[X] - Write in axis
 [] - get onHover to work
 [] - Do README
 [] - figure out profile component issue
