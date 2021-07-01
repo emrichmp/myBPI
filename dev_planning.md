@@ -34,8 +34,8 @@
 [X] - get onHover to work
 [X] - style hover val
 [X] - figure out profile component issue
-[] - setup redux
-[] - set default values of name, email, pn
+[X] - setup redux
+[X] - set default values of name, email, pn
 [] - edit form for profile
 [] - do profile component and use redux to update the states
 [] - Do README
