@@ -18,8 +18,6 @@ function LineGraphData(props){
         hover: true,
         gridX: true,
         gridY: true,
-        // width: '40%',
-        // height: '80%'
         };
         return <div className="Graph" >
                 <h4>BPI History Graph</h4>
