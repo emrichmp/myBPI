@@ -1,5 +1,6 @@
 import './Blurb.css'
 
+//Blurb for the page, explains how the app works and what it does
 function Blurb(){
     return <div className="blurb">
                 <h3 className="blurb-header">Vianai Systems BitCoin Reference Tool</h3>
