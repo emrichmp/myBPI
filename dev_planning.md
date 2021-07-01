@@ -25,7 +25,8 @@
 [X] - style blurb
 [X] - Create table to show data
 [X] - css style table
-[] - fix showing data portion
+[X] - fix showing data portion
+[X] - add white space at the bottom of the page to make it look nice
 [] - figure out how to display data in a graph
 [] - Figure out how to use redux
 [] - start profile component
