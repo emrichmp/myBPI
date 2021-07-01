@@ -23,7 +23,7 @@
 [X] - finish CurrentDisplay component
 [X] - Blurb comp
 [X] - style blurb
-[] - Create table to show data
+[X] - Create table to show data
 [] - css style table
 [] - fix showing data portion
 [] - figure out how to display data in a graph
