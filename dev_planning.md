@@ -44,15 +44,15 @@
 [X] - css styling to have logo in the right spot
 
 ### Form
-[] - Inputs
+[X] - Inputs
     [] - profile info?
         [] - 
-    [] - start date
-    [] - end date
-    [] - currencies
+    [X] - start date
+    [X] - end date
+    [X] - currencies
 
 ### Data Display
-    Tables
+    [X] - Table
         * columns:
 
     Charts
@@ -91,3 +91,5 @@
 * Redux
 * CSS
 * pulled supported currencies from - https://api.coindesk.com/v1/bpi/supported-currencies.json
+* React-router
+* he
