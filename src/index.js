@@ -2,10 +2,29 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
+
+const initialState = {
+  name: "User",
+  email: "email@vian.ai",
+  pn: "917-123-4567"
+}
+
+function reducer(state = initialState, action) {
+  switch(action.type){
+    default:
+      return state;
+  }
+}
+
+const store = createStore(reducer)
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
