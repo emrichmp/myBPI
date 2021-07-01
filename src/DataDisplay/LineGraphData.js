@@ -1,6 +1,7 @@
 import LineGraph from 'react-line-graph';
 import './Graph.css';
 import GraphLabel from './GraphLabel';
+import PointValue from './PointValue';
 
 //Recieves data as props from Input.js
 //Displays BPI data in date & value
@@ -29,6 +30,7 @@ function LineGraphData(props){
                 <h4>BPI History Graph</h4>
                 <GraphLabel />
                 <LineGraph {...specs}/>
+                <PointValue />
             </div>
     } else {
         return null
