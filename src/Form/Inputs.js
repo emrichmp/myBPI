@@ -29,7 +29,6 @@ class Inputs extends React.Component {
     //takes in the state, end and currency to make a fetch the to coindesk to pull specific history data, then sets the response to the data state
     //this data is then passed into the table component as props
     fetchHandler(start, end, currency) {
-        console.log(start, end, currency)
         fetch(`https://api.coindesk.com/v1/bpi/historical/close.json?start=${start}&end=${end}`)
             .then(response => response.json())
             .then(json => this.setState({ data:json }))
