@@ -11,8 +11,14 @@ const initialState = {
   pn: "917-123-4567"
 }
 
-function reducer(state = initialState, action) {
+function reducer(state = initialState, action, data = []) {
   switch(action.type){
+    case 'UPDATE':
+      return {
+        name: action.data[0],
+        email: action.data[1],
+        pn: action.data[2]
+      }
     default:
       return state;
   }
