@@ -31,7 +31,7 @@
 [] - figure out profile component issue
 [] - do profile component and use redux to update the states
 [X] - figure out how to display data in a graph
-[] - style and place graph correctly
+[X] - style and place graph correctly
 [] - Write in axis
 [] - get onHover to work
 [] - Do README
