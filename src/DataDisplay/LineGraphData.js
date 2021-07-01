@@ -5,6 +5,10 @@ import GraphLabel from './GraphLabel';
 //Recieves data as props from Input.js
 //Displays BPI data in date & value
 function LineGraphData(props){
+
+    const hoverHandler = (x,y) => {
+        console.log(x,y)
+    }
     //if bpi data is present, we iterate through the object to change it into array
     //We then use these data pairs to pass into the graph
     if (props.data.bpi !== undefined){
@@ -19,10 +23,12 @@ function LineGraphData(props){
         hover: true,
         gridX: true,
         gridY: true,
+        onHover:(x,y) => {hoverHandler(x,y)}
         };
         return <div className="Graph" >
                 <h4>BPI History Graph</h4>
                 <GraphLabel />
+                {console.log(specs.hover.value)}
                 <LineGraph {...specs}/>
             </div>
     } else {
