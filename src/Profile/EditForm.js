@@ -17,6 +17,8 @@ class EditForm extends React.Component {
             this.state.pn
         ]
         this.props.dispatch({ type: 'UPDATE', data})
+        //here there would be a theoretical this.fetchHandler
+        //that would POST to a backend that holds User data
     }
     
     render(){
