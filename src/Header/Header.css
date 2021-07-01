@@ -33,7 +33,7 @@
     display: flex;
     margin-top: -22px;
     margin-left: 1080px;
-    padding-bottom: 50px;
+    margin-bottom: 80px;
     width: 300px;
 }
 
@@ -49,9 +49,9 @@
     opacity: 1;
     transition: 0.3s;
     display: flex;
-    margin-top: -72px;
+    margin-top: -102px;
     margin-left: 995px;
-    padding-bottom: 50px;
+    margin-bottom: 80px;
     width: 300px;
 }
 
