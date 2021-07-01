@@ -40,6 +40,7 @@
 
 ## Reach Goals
 [] - figure how to handle bad req
+[] - fix up y and x values
 
 
 ## Project Broken Down
