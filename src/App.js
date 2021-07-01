@@ -8,7 +8,6 @@ import {
   HashRouter
 } from "react-router-dom";
 import Profile from './Profile'
-import LineGraphData from './DataDisplay/LineGraphData';
 
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
         <Route exact path="/" component={Current} />
         <Route exact path="/" component={Inputs} />
         <Route exact path="/profile" componenet={Profile} />
-        <LineGraphData />
       </HashRouter>
     </div>
   );

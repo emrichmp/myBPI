@@ -2,6 +2,7 @@ import React from 'react';
 import './Inputs.css';
 import { Currencies } from './Currencies'
 import Table from '../DataDisplay/Table';
+import LineGraphData from '../DataDisplay/LineGraphData';
 
 class Inputs extends React.Component {
     //initialization of state, set default values to handle instance of user clicking the button without changing inputs
@@ -55,6 +56,7 @@ class Inputs extends React.Component {
                     <button className="inputbutton">Pull History</button>
                 </form>
                 <Table start={this.state.start} end={this.state.end} data={this.state.data}/>
+                <LineGraphData data={this.state.data}/>
             </div>
         )
     }
