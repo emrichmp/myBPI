@@ -10,8 +10,6 @@ function CurrentDisplay(props){
         return <div>
                 <h3 className="current-display" >Current BitCoin Values</h3>
                     {Object.entries(props.data.bpi).map(([key, value]) => {
-                        // Pretty straightforward - use key for the key and value for the value.
-                        // Just to clarify: unlike object destructuring, the parameter names don't matter here.
                         return <h3 className="current-data" key={key}> {value.code} {he.decode(value.symbol)} {value.rate} </h3>
                     })}
              </div>
