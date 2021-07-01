@@ -43,6 +43,7 @@ class Inputs extends React.Component {
                     <input className="start" name="start" type="date" onChange={this.changeHandler}></input>
                     <label className="end-label" >End Date: </label>
                     <input className="end" name="end" type="date" onChange={this.changeHandler}></input>
+                    {/* CoinDesk does not currently support custom currency for historical data requests, only USD */}
                     <label className="currency-label" >Currency: </label>
                     <select className="currency" name="currency" onChange={this.changeHandler}>
                         {Currencies.map((item, index) => {
