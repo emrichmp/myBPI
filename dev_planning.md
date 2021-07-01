@@ -31,6 +31,7 @@
 [] - figure out profile component issue
 [] - do profile component and use redux to update the states
 [] - figure out how to display data in a graph
+[] - style and place graph correctly
 [] - Do README
 [] - Create Demo
 
