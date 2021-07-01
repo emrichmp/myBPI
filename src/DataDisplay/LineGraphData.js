@@ -4,12 +4,12 @@ import './Graph.css';
 //Recieves data as props from Input.js
 //Displays BPI data in date & value
 function LineGraphData(props){
-    console.log(props.data)
+    //if bpi data is present, we iterate through the object to change it into array
+    //We then use these data pairs to pass into the graph
     if (props.data.bpi !== undefined){
         const data = Object.entries(props.data.bpi).map(([key, value]) => {
             return [new Date(key).getTime(), value]
         })
-        console.log(data)
         const specs = {
         data,
         smoothing: 0.3,
