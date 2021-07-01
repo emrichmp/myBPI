@@ -14,10 +14,10 @@ function App() {
     <div className="App">
       <HashRouter>
         <Header />
+        <Route path='/profile' component={Profile} />
         <Route exact path="/" component={Blurb} />
         <Route exact path="/" component={Current} />
         <Route exact path="/" component={Inputs} />
-        <Route exact path="/profile" componenet={Profile} />
       </HashRouter>
     </div>
   );
