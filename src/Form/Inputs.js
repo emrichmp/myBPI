@@ -35,7 +35,8 @@ class Inputs extends React.Component {
             .then(json => this.setState({ data:json }))
     }
 
-    //displays form, takes in currencies object to show the options for select, also mounts table component
+    //displays form, takes in currencies object to show the options for select, also mounts table + Graph components
+    //Passes pulled data to table and graph component
     render(){
         return(
             <div>
