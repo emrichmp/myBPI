@@ -26,11 +26,11 @@ Create a frontend for the CoinDesk API following these requirements...
     * Inputs.js - pulled data and passed it into other components
     * Table.js - Displayed prop data in table form
     * LineGraphData.js - Displayed data in linegraph
-    * PointValue.js - Showed data from hovered points
+    * PointValue.js - Showed data for hovered points
 2. Inputs were handled by...
     * EditForm.js - User inputs profile info here
-    * Input.js - Let's user choose start and end dates for history data, additionally user can select currency, however custom currency data isn't available from CoinDesk for historical data, only USD
-3. I chose to be creative through my use of CSS styling. I used fonts and color schemes from the Vianai website to make it look like it was a part of Vianai. I got creative with presentation with the table and graphs, As well as the website layout.
+    * Input.js - Let's user choose start and end dates for history data, additionally user can select currency, however custom currency data isn't available from CoinDesk for historical data, only USD.
+3. I chose to be creative through my use of CSS styling. I used fonts and color schemes from the Vianai website to make it look like it was a part of Vianai. I got creative with the presentation with the table and graphs, As well as the website layout.
 4. Refer to Index.js and the src/Profile folder and its components for use of Redux. I used handling the profile data with redux.
 5. Re-usable components include...
     * Table.js
@@ -44,30 +44,29 @@ Here I'll explain how I broke down the project into parts, the problems I faced 
 ### Breakdown
 I broke down this project into these parts...
 * Header
-    * I wanted this to be a Navbar that had the Vianai logo, home, profile, contact us and powered by coindesk disclaimer
-    * I chose these things as a first step to make it seem like it was incorperated in the Vianai website. The 'contact us' links directly to the Vianai contact page and the links were styled like Vianai's web page.
+    * I wanted this to be a Navbar that had the Vianai logo, home, profile, contact us and powered by coindesk disclaimer.
+    * I chose these things as a first step to make it seem like it was incorporated in the Vianai website. The 'contact us' links directly to the Vianai contact page and the links were styled like Vianai's web page.
 * Form
-    * I knew I was required to have inputs that influenced data pulled. I needed these inputs to take in that user data and have it dictate the AJAX request to the API. I decided to go about this with a date selector input and a html form selection input. This would lead to less potential errors because instead of the user having to put in the correct date or currency format, the user can just choose what they want.
+    * I knew I was required to have inputs that influenced the data pulled. I needed these inputs to take in that user data and have it dictate the AJAX request to the API. I decided to go about this with a date selector input and a html form selection input. This would lead to less potential errors because instead of the user having to put in the correct date or currency format, the user can just choose what they want.
     * I also decided to style these in a way that made it look less vanilla and more minimalistic and eye catching. Vianai's website is very aesthetic and I wanted my frontend to take that same minimal User friendly UI approach.
 * Data Display
     * This I ended up breaking up into three parts...
         1. Current Data
         2. Tabular
         3. Graph
-    * Current Data - I chose to create this Current Data component because I wanted the user to be greeted with data upfront. Thinking about this from a user story pov, a theoretical user is already navigating to this website for BPI data. It would be nice for some of that data to already load even before putting in a custom request. This is were Current BPI Data comes in. It shows the current value of BPI from CoinDesks current endpoint and shows it in 3 currencies that CoinDesk provides. Even though it wasn't required I thought it would be a good decision to greet a user with data.
-    * Tabular - The table was part of the specs for the take home. I decided to style the table this way to follow Vianais purple and white color scheme. In the future I would probably change the design of the table to be a little more eye pleasing.
+    * Current Data - I chose to create this Current Data component because I wanted the user to be greeted with data upfront. Thinking about this from a user story pov, a theoretical user is already navigating to this website for BPI data. It would be nice for some of that data to already load even before putting in a custom request. This is where CurrentDisplay.js comes in. It shows the current value of BPI from CoinDesks current endpoint and shows it in 3 currencies that CoinDesk provides. Even though it wasn't required I thought it would be a good decision to greet a user with data.
+    * Tabular - The table was part of the specs for the take home. I decided to style the table this way to follow Vianais purple and white color scheme. In the future I would probably change the design of the table to be a little more eye pleasing. I would like to fix the fact that the table can run down the page with nothing next to it after the graph.
     * Graph - Lastly the Graph I chose was based on a react compatible line graph. I like the way it came out and I think the hover feature is pretty neat for finding data in the graph. With that being said, next time around I would most likely go with another library for visual data. There were a couple futures I wanted to add later on that I found react-line-graph did not support. If I had more time for the take home I would most likely use ChartJS or D3JS to handle this.
 * Profile Component
-    * I used this profile component to hint at features I would add if this were to be deployed. I would most likely have a login feature and a profile that goes with that. Additionally, the profile components would most likely AJAX call to a backend that held profile data. I also used the profile component as an oppurtunity to impliment redux. I think within the other components Redux would have required more code to be written and overcomplicate things. Profile was a nice way to handle state without having to use setState multiple times in the component.
-### Problems
+    * I used this profile component to hint at features I would add if this were to be deployed. I would most likely have a login feature and a profile that goes with that. Additionally, the profile components would most likely AJAX call to a backend that held profile data. I also used the profile component as an oppurtunity to impliment redux. I think within the other components Redux would have required more code to be written and overcomplicate things, which is why I elected to use redux here. Profile.js was a nice way to handle state without having to use setState multiple times in the component.
 
 ### What I would change and do differently
 I am a perfectionist and there are a couple things I would fix.
-* Bad requests/inputs - If a user decides to input a future date or chooses a start date that's later than the end date than the fetch() promise returns an error. To handle this I would add an if statement that would handle this case and display an error message for the user to see. However, I do have some bad input handling. If a user clicks the "PULL HISTORY" button without selecting a date, there are defaults set so a bad request isn't set.
+* Bad requests/inputs - If a user decides to input a future date or chooses a start date that's later than the end date than the fetch() promise returns an error. To handle this I would add an if statement that would handle this case and display an error message for the user to see. However, I do have some bad input handling. If a user clicks the "PULL HISTORY" button without selecting a date, there are defaults set so a bad request isn't sent.
 * Styling - I am pretty proud of my styling, however I think next time around I would most likely use a library such as materialUI to make the layout a bit more structured and aesthetic. Additionally for styling, I think I could have done a better job placing items and used flex-box css styling rather than margins to cause less css problems. Lastly I would probably make the table styling more eye appealing given more time.
 * Graph - I would like to use a chart library that included more features. More information on the margins would be nice such as date and value markings. To go about this I would most likely use chartJS or D3JS. Additionally I would like to improve the labels for the graph. I think I would spend a lot of time making the graph show more data to make it more useful, however I used the tools I had in the given time.
 * Login - If I was given more time I would add a login feature using JWT or sessions for security. However, in order for this to work I'd probably make a rails backend that handled user accounts and sessions. That would take some time to build, but it would make the project deployable with the profile feature.
-* Currencies - CoinDesk does not support custom currencies for historical data so if that were to change I would make it so the Currency selection was apart of the API query. Also instead of copying the supported currencies object and saving it in Currencies.js, I would most likely pull the supported currencies with a fetch() call and iterate through that object for the selection input. That would be better because if the supported currencies were to change, I would not have to update the object, the component would fetch() that data instead.
+* Currencies - CoinDesk does not support custom currencies for historical data so if that were to change I would make it so the currency selection was apart of the API query. Also instead of copying the supported currencies object and saving it in Currencies.js, I would most likely pull the supported currencies with a fetch() call and iterate through that object for the selection input. That would be better because if the supported currencies were to change, I would not have to update the object, the component would fetch() that data when mounting instead.
 
 ## Tools/Packages Used
 * ColorPick Eyedropper chrome extension
