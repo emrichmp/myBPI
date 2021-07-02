@@ -1,7 +1,7 @@
 # CoinDesk BPI Tool!
 
 ## DEMO
-I created a quick demo that runs through this project and gives a brief explanation. Click the link for the video:
+I created a quick demo that runs through this project and gives a brief explanation. Click the link for the video: https://www.loom.com/share/c486119e977f4d60830dabe66748ce14
 
 ## Gallery
 Here are some screenshots of the app:
