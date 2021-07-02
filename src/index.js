@@ -5,6 +5,9 @@ import reportWebVitals from './reportWebVitals';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 
+//sets up redux here in index.js
+//sets up store, initial state and reduceer functions for dispatches to use redux
+//passes store to app with provider
 const initialState = {
   name: "User",
   email: "email@vian.ai",
