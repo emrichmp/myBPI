@@ -24,7 +24,6 @@ class EditForm extends React.Component {
     render(){
         return(
             <div>
-                {console.log(this.props.name)}
                 <form>
                     <input name="name" type="text" placeholder="Name" onChange={this.changeHandler}></input>
                     <br></br>
