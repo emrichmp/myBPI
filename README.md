@@ -33,7 +33,7 @@ Create a frontend for the CoinDesk API following these requirements...
     ... All these components are function components and can be referred to as presentational components. They take data passed in as props and can be re-used for different data passed into it.
 
 ## Process
-I will try my best to explain how I went about the process of breaking this down and addressed the problems I faced.
+Here I'll explain how I broke down the project into parts, the problems I faced and what I would do differently.
 ### Breakdown
 I broke down this project into these parts...
 * Header
