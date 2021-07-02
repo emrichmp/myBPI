@@ -5,7 +5,7 @@ I created a quick demo that runs through this project and gives a brief explanat
 
 ## Gallery
 Here are some screenshots of the app:
-![pic](https://ibb.co/52Zq54s)
+![pic](https://i.ibb.co/st7LFRs/Screen-Shot-2021-07-01-at-11-38-33-PM.png)
 
 ## The Task
 Create a frontend for the CoinDesk API following these requirements...
