@@ -55,7 +55,12 @@ I broke down this project into these parts...
 ### Problems
 
 ### What I would change and do differently
-
+I am a perfectionist and there are a couple things I would fix.
+* Bad requests/inputs - If a user decides to input a future date or chooses a start date that's later than the end date than the fetch() promise returns an error. To handle this I would add an if statement that would handle this case and display an error message for the user to see
+* Styling - I am pretty proud of my styling, however I think next time around I would most likely use a library such as materialUI to make the layout a bit more structured and aesthetic. Additionally for styling, I think I could have done a better job placing items and used flex-box css styling rather than margins to cause less css problems. Lastly I would probably make the table styling more eye appealing given more time.
+* Graph - I would like to use a chart library that included more features. More information on the margins would be nice such as date and value markings. To go about this I would most likely use chartJS or D3JS. Additionally I would like to improve the labels for the graph. I think I would spend a lot of time making the graph show more data to make it more useful, however I used the tools I had in the given time.
+* Login - If I was given more time I would add a login feature using JWT or sessions for security. However, in order for this to work I'd probably make a rails backend that handled user accounts and sessions. That would take some time to build, but it would make the project deployable with the profile feature.
+* Currencies - CoinDesk does not support custom currencies for historical data so if that were to change I would make it so the Currency selection was apart of the API query. Also instead of copying the supported currencies object and saving it in Currencies.js, I would most likely pull the supported currencies with a fetch() call and iterate through that object for the selection input. That would be better because if the supported currencies were to change, I would not have to update the object, the component would fetch() that data instead.
 
 ## Tools/Packages Used
 * ColorPick Eyedropper chrome extension
