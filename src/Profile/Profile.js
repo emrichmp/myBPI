@@ -7,6 +7,8 @@ import EditForm from './EditForm';
 //This page would theoretically pull from a backend that handles login
 //User can update name, birthday, email and phone number that associated with a theoretical account
 //Uses redux to handle state of profile information
+//Theorically with a componentDidMount this comp would pull from a backedn
+//and would grab the user profile data from there
 class Profile extends React.Component{
     render(){
         return(
