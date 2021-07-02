@@ -60,9 +60,9 @@ I broke down this project into these parts...
 * React
 * Redux
 * CSS
-* pulled supported currencies from - https://api.coindesk.com/v1/bpi/supported-currencies.json
+* Pulled supported currencies from - https://api.coindesk.com/v1/bpi/supported-currencies.json
 * React-router
-* he
+* he - library used to convert HTML entity into symbol (for currency symbols)
 * React-Line-Graph
 
 ## What I would change and do differently
