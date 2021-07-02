@@ -21,14 +21,14 @@ function LineGraphData(props){
             return [new Date(key).getTime(), value]
         })
         const specs = {
-        data,
-        smoothing: 0.3,
-        accent: 'palevioletred',
-        fillBelow: 'rgba(200,67,23,0.1)',
-        hover: true,
-        gridX: true,
-        gridY: true,
-        onHover:(x,y) => {hoverHandler(x,y)}
+            data,
+            smoothing: 0.3,
+            accent: 'palevioletred',
+            fillBelow: 'rgba(200,67,23,0.1)',
+            hover: true,
+            gridX: true,
+            gridY: true,
+            onHover:(x,y) => {hoverHandler(x,y)}
         };
         return <div className="Graph" >
                 <h4>BPI History Graph</h4>
