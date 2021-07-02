@@ -7,6 +7,12 @@ I created a quick demo that runs through this project and gives a brief explanat
 Here are some screenshots of the app:
 ![pic](https://i.ibb.co/st7LFRs/Screen-Shot-2021-07-01-at-11-38-33-PM.png)
 
+![2](https://i.ibb.co/L66bPT1/Screen-Shot-2021-07-01-at-11-39-17-PM.png)
+
+![3](https://i.ibb.co/prHCMmc/Screen-Shot-2021-07-01-at-11-39-36-PM.png)
+
+![4](https://i.ibb.co/qWvM08Y/Screen-Shot-2021-07-01-at-11-39-53-PM.png)
+
 ## The Task
 Create a frontend for the CoinDesk API following these requirements...
 1. Use https://www.coindesk.com/coindesk-api to Display data in both tabular and charts
