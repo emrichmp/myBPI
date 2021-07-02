@@ -7,7 +7,7 @@ import LineGraphData from '../DataDisplay/LineGraphData';
 class Inputs extends React.Component {
     //initialization of state, set default values to handle instance of user clicking the button without changing inputs
     state = {
-        start: "2021-06-29",
+        start: "2021-05-29",
         end: new Date().toISOString().slice(0, 10),
         currency: "AED",
         data: {}
