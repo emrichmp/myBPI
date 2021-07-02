@@ -41,8 +41,8 @@
 [X] - Do README
 [X] - Add pictures to README
 [X] - Finishing touches to code
-[] - Create Demo
-[] - Link Demo to README
+[X] - Create Demo
+[X] - Link Demo to README
 
 ## Reach Goals
 [] - figure how to handle bad req
