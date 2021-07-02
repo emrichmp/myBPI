@@ -2,7 +2,7 @@
 
 ## DEMO
 ** disclaimer **
-Loom records with a poor framerate, app does not perform slow. It is just looms framerate that does that
+Loom records with a poor framerate, app does not perform slow. It is just looms framerate that does that.
 
 I created a quick demo that runs through this project and gives a brief explanation. Click the link for the video: https://www.loom.com/share/c486119e977f4d60830dabe66748ce14
 
