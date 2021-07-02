@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Profile from './Profile/Profile'
 
+//mounts components in app, uses react router to keep app single page
 function App() {
   return (
     <div className="App">
