@@ -38,8 +38,11 @@
 [X] - set default values of name, email, pn
 [X] - edit form for profile
 [X] - do profile component and use redux to update the states
-[] - Do README
+[X] - Do README
+[] - Add pictures to README
+[] - Finishing touches to code
 [] - Create Demo
+[] - Link Demo to README
 
 ## Reach Goals
 [] - figure how to handle bad req
