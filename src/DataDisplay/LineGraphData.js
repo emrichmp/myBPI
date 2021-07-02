@@ -31,7 +31,7 @@ function LineGraphData(props){
             onHover:(x,y) => {hoverHandler(x,y)}
         };
         return <div className="Graph" >
-                <h4>BPI History Graph</h4>
+                <h4 className="title">BPI History Graph</h4>
                 <GraphLabel />
                 <LineGraph {...specs}/>
                 <PointValue point={point}/>

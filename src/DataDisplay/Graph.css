@@ -8,13 +8,23 @@
     margin-top: 150px;
 }
 
+.title {
+    display: flex;
+    position: absolute;
+    margin-top: -30px;
+    left: 400px;
+}
+
 .x-axis {
     display: flex;
+    position: absolute;
     margin-top: 75px;
+    left: 400px;
 }
 
 .y-axis {
-    margin-top: 60px;
+    display: flex;
+    margin-top: 80px;
 }
 
 .pointval {
