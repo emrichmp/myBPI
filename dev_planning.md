@@ -46,7 +46,7 @@
 
 ## Reach Goals
 [] - figure how to handle bad req
-[] - fix up y and x values
+[X] - fix up y and x values
 
 
 ## Project Broken Down
@@ -59,8 +59,8 @@
 
 ### Form
 [X] - Inputs
-    [] - profile info?
-        [] - 
+    [X] - profile info?
+        [X] - name, email, number
     [X] - start date
     [X] - end date
     [X] - currencies
@@ -74,9 +74,8 @@
         * another graph for another thing lol
 
 ### Profile Component
-[] - Show name, email, phone number
-[] - Allow User to edit name, email phone number
-[] - display name on main page
+[X] - Show name, email, phone number
+[X] - Allow User to edit name, email phone number
 
 ### Component Breakdown
 * reusable function component for the rows in the table - takes in props
