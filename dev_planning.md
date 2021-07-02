@@ -39,8 +39,8 @@
 [X] - edit form for profile
 [X] - do profile component and use redux to update the states
 [X] - Do README
-[] - Add pictures to README
-[] - Finishing touches to code
+[X] - Add pictures to README
+[X] - Finishing touches to code
 [] - Create Demo
 [] - Link Demo to README
 
