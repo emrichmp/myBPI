@@ -52,6 +52,10 @@ I broke down this project into these parts...
     * Graph - Lastly the Graph I chose was based on a react compatible line graph. I like the way it came out and I think the hover feature is pretty neat for finding data in the graph. With that being said, next time around I would most likely go with another library for visual data. There were a couple futures I wanted to add later on that I found react-line-graph did not support. If I had more time for the take home I would most likely use ChartJS or D3JS to handle this.
 * Profile Component
     * I used this profile component to hint at features I would add if this were to be deployed. I would most likely have a login feature and a profile that goes with that. Additionally, the profile components would most likely AJAX call to a backend that held profile data. I also used the profile component as an oppurtunity to impliment redux. I think within the other components Redux would have required more code to be written and overcomplicate things. Profile was a nice way to handle state without having to use setState multiple times in the component.
+### Problems
+
+### What I would change and do differently
+
 
 ## Tools/Packages Used
 * ColorPick Eyedropper chrome extension
@@ -64,8 +68,6 @@ I broke down this project into these parts...
 * React-router
 * he - library used to convert HTML entity into symbol (for currency symbols)
 * React-Line-Graph
-
-## What I would change and do differently
 
 ## Installation
 if you want to experiment with this app or run it locally fork and clone this repo.
