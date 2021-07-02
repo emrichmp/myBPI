@@ -1,6 +1,10 @@
 # CoinDesk BPI Tool!
 
+## DEMO
+I created a quick demo that runs through this project and gives a brief explanation. Click the link for the video:
+
 ## Gallery
+Here are some screenshots of the app:
 
 ## The Task
 Create a frontend for the CoinDesk API following these requirements...
