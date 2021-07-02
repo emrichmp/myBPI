@@ -24,7 +24,6 @@ class Inputs extends React.Component {
         let nam = event.target.name;
         let val = event.target.value;
         this.setState({[nam]: val});
-        console.log(nam, val)
     }
 
     //takes in the start, end and currency to make a fetch the to coindesk to pull specific history data, then sets the response to the data state
