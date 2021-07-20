@@ -1,5 +1,6 @@
 import React from 'react';
-import logo from './logo-flower.png'
+//import logo from './logo-flower.png'
+import logo from './Logo.png'
 import './Header.css';
 import { NavLink } from 'react-router-dom';
 
