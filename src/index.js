@@ -10,7 +10,7 @@ import { Provider } from 'react-redux';
 //passes store to app with provider
 const initialState = {
   name: "User",
-  email: "email@vian.ai",
+  email: "email@email.com",
   pn: "917-123-4567"
 }
 
