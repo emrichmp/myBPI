@@ -11,7 +11,6 @@ class Header extends React.Component {
         return(
             <div>
                 <img className="logo" src={logo} alt="" />
-                {/* <a className="contact" href="https://www.vian.ai/contact-us/" target="_blank" rel="noopener noreferrer">Contact Us</a> */}
                 <a className="contact" href="https://www.linkedin.com/in/emrich-michael-perrier/" target="_blank" rel="noopener noreferrer">Contact Me</a>
                 <small className="coindesk">Powered by <a href="https://www.coindesk.com/price/bitcoin" target="_blank" rel="noopener noreferrer" >CoinDesk</a></small>
                 <NavLink className="profile" to="/profile">Profile</NavLink>
