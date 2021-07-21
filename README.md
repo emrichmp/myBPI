@@ -34,7 +34,7 @@ Create a frontend for the CoinDesk API following these requirements...
 2. Inputs were handled by...
     * EditForm.js - User inputs profile info here
     * Input.js - Let's user choose start and end dates for history data, additionally user can select currency, however custom currency data isn't available from CoinDesk for historical data, only USD.
-3. I chose to be creative through my use of CSS styling. I used fonts and color schemes from the Vianai website to make it look like it was a part of Vianai. I got creative with the presentation with the table and graphs, As well as the website layout.
+3. I chose to be creative through my use of CSS styling. I used fonts and color schemes from the "Company" website to make it look like it was a part of "Company". I got creative with the presentation with the table and graphs, As well as the website layout.
 4. Refer to Index.js and the src/Profile folder and its components for use of Redux. I used handling the profile data with redux.
 5. Re-usable components include...
     * Table.js
@@ -48,11 +48,11 @@ Here I'll explain how I broke down the project into parts, the problems I faced 
 ### Breakdown
 I broke down this project into these parts...
 * Header
-    * I wanted this to be a Navbar that had the Vianai logo, home, profile, contact us and powered by coindesk disclaimer.
-    * I chose these things as a first step to make it seem like it was incorporated in the Vianai website. The 'contact us' links directly to the Vianai contact page and the links were styled like Vianai's web page.
+    * I wanted this to be a Navbar that had the "Company" logo, home, profile, contact us and powered by coindesk disclaimer.
+    * I chose these things as a first step to make it seem like it was incorporated in the "Company" website. The 'contact us' links directly to the "Company" contact page and the links were styled like "Company"'s web page.
 * Form
     * I knew I was required to have inputs that influenced the data pulled. I needed these inputs to take in that user data and have it dictate the AJAX request to the API. I decided to go about this with a date selector input and a html form selection input. This would lead to less potential errors because instead of the user having to put in the correct date or currency format, the user can just choose what they want.
-    * I also decided to style these in a way that made it look less vanilla and more minimalistic and eye catching. Vianai's website is very aesthetic and I wanted my frontend to take that same minimal User friendly UI approach.
+    * I also decided to style these in a way that made it look less vanilla and more minimalistic and eye catching. "Company"'s website is very aesthetic and I wanted my frontend to take that same minimal User friendly UI approach.
 * Data Display
     * This I ended up breaking up into three parts...
         1. Current Data
@@ -74,7 +74,7 @@ I am a perfectionist and there are a couple things I would fix.
 
 ## Tools/Packages Used
 * ColorPick Eyedropper chrome extension
-* Vianai's website and chrome developer tools to grab Vianai Logo and font
+* "Company"'s website and chrome developer tools to grab "Company" Logo and font
 * Google fonts
 * React
 * Redux
