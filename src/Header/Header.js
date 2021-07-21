@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 
 class Header extends React.Component {
     //Created header to look very similar to Vianai website, contact link leads to Vianai, disclaimer is required for utilization of coindesk
-    //Vianai Logo was pulled from website
+    //Links open new tab w/ "target="_blank"
     render(){
         return(
             <div>
