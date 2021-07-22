@@ -91,6 +91,9 @@ if you want to experiment with this app or run it locally fork and clone this re
 2. Run ```npm start``` to start server.
 3. Navigate to "http://localhost:3000"
 
+## Contact!
+If this portfolio project interested you and you wanted to reach out to me for anything, you may send me a message on [LinkedIn](https://www.linkedin.com/in/emrich-michael-perrier/). You can also check out my [Medium](https://emrichmp.medium.com/) Blog and [GitHub](https://github.com/emrichmp)
+
 ## License
 Copyright 2021 Emrich-Michael Perrier
 
