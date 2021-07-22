@@ -3,7 +3,7 @@
 ## DEMO
 ** disclaimer **
 - Loom records with a poor framerate, app does not perform slow. It is just looms framerate that does that.
-- Additionally, this was a take home I had to complete for a companies interview process. I really liked how it came out so I wanted to use it as a FrontEnd Project on my portfolio
+- Additionally, this was a take home I had to complete for a companies interview process. I really liked how it came out so I wanted to use it as a FrontEnd Project on my portfolio.
 
 I created a quick demo that runs through this project and gives a brief explanation. Click 
 [here](https://www.loom.com/share/c486119e977f4d60830dabe66748ce14) for demo video.
