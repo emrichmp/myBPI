@@ -1,4 +1,4 @@
-# CoinDesk BPI Tool!
+# myBPI
 
 ## DEMO
 ** disclaimer **
