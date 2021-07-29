@@ -1,5 +1,7 @@
 # myBPI
 
+Link to deployed product: https://my-bpi.herokuapp.com/#/
+
 ## DEMO
 ** disclaimer **
 - Loom records with a poor framerate, app does not perform slow. It is just looms framerate that does that.
