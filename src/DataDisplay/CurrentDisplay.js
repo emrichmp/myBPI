@@ -12,7 +12,7 @@ function CurrentDisplay(props){
                     })}
              </div>
     } else {
-        return <div>loading...</div>
+        return <h3 className="current-display" >Loading...</h3>
     }
 }
 
