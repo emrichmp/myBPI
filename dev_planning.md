@@ -11,6 +11,7 @@
 [] - Perhaps make it less react-y and have less files
 [] - Need to just clean it up in general
 [] - FIX CSS STYLING (USE FLEXBOX)
+[] - 
 
 ## To-Do
 [X] - grab Vianai logo and add to public folder
