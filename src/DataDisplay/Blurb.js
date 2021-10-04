@@ -10,6 +10,8 @@ function Blurb(){
                     <h4 className="blurb-sentence">see the change in bitcoins value through a time frame of</h4>
                     <h4 className="blurb-sentence"> your choosing. This platform supports both tabular and</h4>
                     <h4 className="blurb-sentence"> graphic data.</h4>
+                    <h6 className="blurb-sentence"> ** Keep in Mind that the CoinDesk API (backend) does not currently</h6>
+                    <h6 className="blurb-sentence"> support custom currencies for historical BPI data **</h6>
                 </div>
             </div>
 }
